@@ -1,4 +1,4 @@
-# Impression Prediction Model / Impression Forcast Model
+# Impression Forcast Model
 
 ## Problem Statement:
 
