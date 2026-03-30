@@ -3,3 +3,4 @@ GEMINI.md
 *.pth
 __pycache__/
 .venv/
+code/models/arima/Temp
