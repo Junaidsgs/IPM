@@ -11,7 +11,7 @@ To develop a time-series regression model that predicts the number of downloads 
 For App developers having a model that can predict the future downloads is invaluable. It can help them make better decisions to improve their businesses.
 
 Some use cases can be:
-- **To optimize UA (User Acquisition) spend** to reach quarterly targets.
+- **To optimize UA (User Acquisition / Ad spend) spend** to reach quarterly targets.
 - **Outlier detection:** Developers can detect recent update performance on organic growth.
     - Increase downloads due to store listing updates.
     - Reduction in downloads due to increased crashes in a new update.
@@ -22,10 +22,10 @@ Some use cases can be:
 2. **Preprocessing:** Determine the best way to preprocess the data (Handling missing dates, smoothing ratings, etc.).
    - See [Data Preprocessing Guide](resources/data_preprocessing.md).
 3. **Data Splitting:** Split the data into training and test sets. **Note: Time-series data must be split by time, not randomly.**
-4. **Baseline Modeling:** Run traditional regression algorithms to create the initial model.
-5. **Advanced Modeling:** Research and implement subsequent models (LSTM, BiLSTM, etc.).
-6. **State-of-the-Art Implementation:** Run the data through **Facebook’s Prophet** model.
-7. **Evaluation:** Evaluate the results using time-series metrics (MAE, MSE, Huber Loss).
+4. **Baseline Modeling:** Run traditional regression algorithms to create the initial model ([ARIMA, SARIMA and SARIMAX](code/models/arima/arima_family.ipynb)).
+5. **Advanced Modeling:** Research and implement subsequent models ([LSTM](code/models/lstm/lstm_model.ipynb), [BiLSTM](code/models/lstm/bilstm_model.ipynb)).
+6. **State-of-the-Art Implementation:** Run the data through SOTA Models ([Facebook’s Prophet](code/models/sota/prophet_forecast.ipynb), [Google's TimesFM](code/models/sota/timesfm_forecast.ipynb)).
+7. **Evaluation:** Evaluate the results using time-series metrics (MAE, RMSE).
 
 ## Evaluation Plans:
 
