@@ -55,3 +55,31 @@ This is what we are using in the following results.
 
 ## Github Link
 https://github.com/Junaidsgs/IFM.git
+
+## Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Junaidsgs/IFM.git
+cd IFM
+```
+
+### 2. Set up a virtual environment
+It is recommended to use a virtual environment to manage dependencies.
+```bash
+python3 -m venv .venv
+source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
+```
+
+### 3. Install dependencies
+Install the required Python packages using pip:
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Running the code
+The project contains several Jupyter notebooks in the `code/models/` directory for different modeling approaches. You can start Jupyter Lab or Notebook to explore them:
+```bash
+pip install jupyterlab
+jupyter lab
+```
